@@ -3,9 +3,9 @@ def GradientWallpaper(hex1='ff0000',hex2='0000ff',size=[1920,1080],type='v',dir=
     
     Keyword arguments:
         hex1:   Hex code, without hash (#), as a string, for first colour
-                default hex1='000000'
+                default hex1='ff0000'
         hex2:   Hex code, without hash (#), as a string, for second colour
-                default hex2='000000'
+                default hex2='0000ff'
         size:   [width, height] of your screen, in pixels
                 default size=[1920,1080]
         type:   Either a vertical ('v') or horizontal ('h') gradient
