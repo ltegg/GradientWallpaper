@@ -14,7 +14,7 @@ Put `GradientWallpaper.py` in your wallpaper directory.
 
 From a Python console, call
 
-`GradientWallpaper(hex1, hex2, size, type, dir)`
+`GradientWallpaper(hex1='ff0000', hex2='0000ff', size=[1920,1080], type='v', dir='')`
 
 Where
 
