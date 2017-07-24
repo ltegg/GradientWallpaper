@@ -1,6 +1,6 @@
 # GradientWallpaper
 
-A Python 3.5 function to generate 2-colour gradient wallpapers. The function takes two colours (expressed as hexadecimal triplets), the screen resolution and the gradient direction (vertical or horizontal), and makes a .png of the gradient.
+A Python 3.5 function to generate two-colour gradient wallpapers. The function takes two colours (expressed as hexadecimal triplets), the screen resolution, and the gradient direction (vertical or horizontal), and makes a .png.
 
 ## Requirements
 
@@ -28,10 +28,10 @@ An example script is included, to demonstrate usage.
 
 ## Screenshots
 
-With `hex1=642b73, hex2=c64263, type='v'`:
+With `GradientWallpaper(hex1='642b73', hex2='c64263')`:
 
 ![642b73+c64263](/examples/642b73+c64263.png?raw=true "642b73+c64263")
 
-With `hex1=dce35b, hex2=45b649, type='h'`:
+With `GradientWallpaper(hex1='dce35b', hex2='45b649', type='h')`:
 
 ![dce35b+45b649](/examples/dce35b+45b649.png?raw=true "dce35b+45b649")
